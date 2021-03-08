@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- main css  -->
+  <link rel="stylesheet" href="main.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- navbar start  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end  -->
+    <!-- side bar start -->
+    <div class="container-fluid">
+      
+      <div class="sidebar">
+        <a href="./index.html">Intro</a>
+        <a href="/topics/history.html">History</a>
+  <a href="./topics/FirstProgram.html">First program</a>
+  <a href="./topics/DataType.html">datatype in java</a>
+  <a href="/topics/variable.html">varibles in java</a>
+  <a href="/topics/ControlSatements.html"></a>
+  <a href="/topics/LoopStatement.html"></a>
+</div>
+
+<!-- page content  -->
+<div class="main">
+  <h1 id="heading" >Intro</h1>
+  <p id="para">java is an object oriented internet programming language, it's have following 2 main features:</p>
+  <ol>
+    <li>Platform Independency</li>
+    <li>Secuity</li>
+  </ul>
+  <p><b>Object Orientation:</b>it is a way of thinking point of view of object. Its based on real life 
+    concepts.following concepts are used in object oriented programming.</p>
+    <p><b>1.Object:</b>Object can be anything which exists physically in the world and can be recongnized to each other
+  .  each object have following 3 main features:</p>
+  <ol type="A">
+    <li>States or Variables</li>
+    <li>Behavior Or Methods</li>
+    <li>Identification</li>
+  </ol>
+  <p><b>Note:</b>May or may not be possible any two objects have same states or methods but never same Identification.</p>
+  <p><b>2.Classification:</b>It is a technique to used for manage similar types of objects in a single logical unit its called class. Class is always virtual it does not class define by class keyword. Class name always start with Upper case and should be noun type.</p>
+  <p><b>Example:</b>Simple, MyTest, ArrayIndexOutOfBoundsException, etc</p>
+  <p><b>3.Generalization:</b>It is a technique to use for manages similar types of classes. Its implemented by Inheritance in java. Interitance is a process to reuse code of existing class by using extends keywords.</p>
+  <p><b>4.Polymorphism:</b>Poly means many and Morphism means Types. So one task can be implements multiple ways. Task is more important compare to its implementation. Polymorphism are following 2 types:</p>
+       <ol type="A">
+         <li>Static Polymorphism or Compile Time Polymorphism (Method Overloading)</li>
+         <li>Dynamic Polymorphism or Run Time Polymorphism(Method Overriding)</li>
+        </ol>
+        <p><b>5.Encapsulation:</b>To put something into capsule. it is used to wrap data in a logic unit it's called class. Outside display only class and its methods name but internally define methods implementiton</p>
+      </div>
+      
+    </div>
+      <!-- Optional JavaScript; choose one of the two! -->
+      
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+  </body>
+  </html>

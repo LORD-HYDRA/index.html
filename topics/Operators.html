@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- main css  -->
+  <link rel="stylesheet" href="/main.css">
+
+    <title>Java-tut</title>
+  </head>
+  <body>
+    <!-- navbar start  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Java-Tut</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Coming soon</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Java Type
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Core Java</a></li>
+                <li><a class="dropdown-item" href="#">Advance Java</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Special Java</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end  -->
+    <!-- side bar start -->
+    <div class="container-fluid">
+      
+      <div class="sidebar">
+        <a href="/index.html">Intro</a>
+        <a href="./history.html">History</a>
+  <a href="./FirstProgram.html">First program</a>
+  <a href="./DataType.html">datatype in java</a>
+  <a href="/topics/variable.html">varibles in java</a>
+  <a href="/topics/">Input form user</a>
+</div>
+
+<!-- page content  -->
+<div class="main">
+  <h3 id="heading" >Operators in java:</h3>
+  <p><b>Operatiors in java:</b> Operators are generally symbols those always predefine and perform task implicitly.following operators are available in java :</p>
+  <ol type="1">
+      <li>Assignment Operator (=): it's used to assign value in variable.</li>
+      <li>Arithmetic Operators</li>
+  </ol>
+     <img class="img-fluid" src="/assest/Operators.png" alt="">
+     <h5>3.Compound Assignment Operator:</h5>
+     <img class="img-fluid" src="/assest/CompoundAssiggnment.png" alt="">
+     <h5>4.Realarional Operator:</h5>
+     <img class="img-fluid" src="/assest/RalationalOperators.png" alt="">
+     <h5>5.Increment(++) and Decrement (--) operator</h5>
+     <ul>
+         <li>Post Increment(x++) and Post Decrement(x--)</li>
+         <li>Pre Increment (++x) and Pre Decrement(--x)</li>
+     </ul>
+     <h5>Logical Operator: these are following 3 type :</h5>
+     <ol type="a">
+         <li>AND operator (&&): when we have multiple conditions, if all conditions are true then result is true ,if any one condition is false then result is false</li>
+         <li>OR operator(||): when we have mulfiple conditions, if any one condition is true the result is true, if all conditions aare false then result is fales.</li>
+         <li>Not operator(!): when condition is true then result if false. if condition is false then result is true.</li>
+     </ol>
+     <h5>Example: 1.4- Using arithmetic operator:</h5>
+     <textarea name="" id="" cols="40" rows="30">
+         Import java.util.Scanner;
+         public class Test 
+         {
+             public static void main(String args[])
+             {
+                 Scanner sc = new Scanner(System.in);
+                 System.out.print("Enter First Number : ");
+                 int a - sc.nextInt();
+                 System.out.print("Enter Second Number: ");
+                 int b = sc.nextInt();
+                 System.out.println("Sum"+(a+b);)
+                 System.out.println("Sum"+(a/0b);)
+                 System.out.println("Sum"+(a*b);)
+                 System.out.println("Sum"+(a/b);)
+                 System.out.println("Sum"+(a%b);)
+
+             }
+         }
+     </textarea>
+     
+
+
+
+    
+ 
+    
+     
+
+      </div>
+      
+    </div>
+      <!-- Optional JavaScript; choose one of the two! -->
+      
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+  </body>
+  </html>
